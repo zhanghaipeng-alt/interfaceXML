@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "模块：demo模块",
+    "children" : [ {
+      "name" : "用例名称：demo测试",
+      "uid" : "ab9d45ae8dcb873f",
+      "parentUid" : "b87171a1cfada2fb5f12ec503dd65594",
+      "status" : "failed",
+      "time" : {
+        "start" : 1605517116191,
+        "stop" : 1605517116246,
+        "duration" : 55
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b87171a1cfada2fb5f12ec503dd65594"
+  } ],
+  "name" : "behaviors"
+}

@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "MacBook-Air.local",
+    "children" : [ {
+      "name" : "54170-MainThread",
+      "children" : [ {
+        "name" : "用例名称：demo测试",
+        "uid" : "eaca431f5ca92a82",
+        "parentUid" : "8707f92767bbd5a0cdd158caabf5cc15",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605517106829,
+          "stop" : 1605517106942,
+          "duration" : 113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用例名称：demo测试",
+        "uid" : "90b590c0abaeeea3",
+        "parentUid" : "8707f92767bbd5a0cdd158caabf5cc15",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605517110064,
+          "stop" : 1605517110115,
+          "duration" : 51
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用例名称：demo测试",
+        "uid" : "9a3388bc2554b4dc",
+        "parentUid" : "8707f92767bbd5a0cdd158caabf5cc15",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605517113128,
+          "stop" : 1605517113177,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用例名称：demo测试",
+        "uid" : "ab9d45ae8dcb873f",
+        "parentUid" : "8707f92767bbd5a0cdd158caabf5cc15",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605517116191,
+          "stop" : 1605517116246,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8707f92767bbd5a0cdd158caabf5cc15"
+    } ],
+    "uid" : "4642973fc1ea2f142f8406cc160ff92a"
+  } ],
+  "name" : "timeline"
+}

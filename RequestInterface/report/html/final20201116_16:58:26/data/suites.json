@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "cases",
+    "children" : [ {
+      "name" : "test_demo",
+      "children" : [ {
+        "name" : "用例名称：demo测试",
+        "uid" : "ab9d45ae8dcb873f",
+        "parentUid" : "74eaf6bee1497ee7879211661717965d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605517116191,
+          "stop" : 1605517116246,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "74eaf6bee1497ee7879211661717965d"
+    } ],
+    "uid" : "9614ab5598a04b276864cf0744ce0d93"
+  } ],
+  "name" : "suites"
+}

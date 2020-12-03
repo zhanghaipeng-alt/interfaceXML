@@ -1,0 +1,236 @@
+{
+  "uid" : "90b590c0abaeeea3",
+  "name" : "用例名称：demo测试",
+  "fullName" : "cases.test_demo#test_demo01",
+  "historyId" : "f23df6a25292661101b71cda42be196f",
+  "time" : {
+    "start" : 1605517110064,
+    "stop" : 1605517110115,
+    "duration" : 51
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "client = <core.client.Client object at 0x102fc7190>\nget = <function get.<locals>.__get at 0x102fc1830>\nset = <function set.<locals>.__set at 0x102fc1710>\n\n    @feature('模块：demo模块')\n    @title('用例名称：demo测试')\n    def test_demo01(client, get, set):\n        # headers = {'Cookie' : 'sessionid=ws80m521m0bnk7ndaivatkl67b3t0erk; suid=5; sukey=64552911e6d300d26b00639e5cdbbf64'}\n        # client.set_headers(headers)\n        client.send()\n>       assert False\nE       assert False\n\ncases/test_demo.py:24: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get",
+    "time" : {
+      "start" : 1605517110062,
+      "stop" : 1605517110063,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "set",
+    "time" : {
+      "start" : 1605517110063,
+      "stop" : 1605517110063,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "client",
+    "time" : {
+      "start" : 1605517110062,
+      "stop" : 1605517110062,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "client = <core.client.Client object at 0x102fc7190>\nget = <function get.<locals>.__get at 0x102fc1830>\nset = <function set.<locals>.__set at 0x102fc1710>\n\n    @feature('模块：demo模块')\n    @title('用例名称：demo测试')\n    def test_demo01(client, get, set):\n        # headers = {'Cookie' : 'sessionid=ws80m521m0bnk7ndaivatkl67b3t0erk; suid=5; sukey=64552911e6d300d26b00639e5cdbbf64'}\n        # client.set_headers(headers)\n        client.send()\n>       assert False\nE       assert False\n\ncases/test_demo.py:24: AssertionError",
+    "steps" : [ {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1605517110064,
+        "stop" : 1605517110115,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取响应头",
+        "time" : {
+          "start" : 1605517110111,
+          "stop" : 1605517110111,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "获取响应状态码",
+        "time" : {
+          "start" : 1605517110112,
+          "stop" : 1605517110112,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "res_text",
+        "time" : {
+          "start" : 1605517110113,
+          "stop" : 1605517110113,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "获取cookies",
+        "time" : {
+          "start" : 1605517110114,
+          "stop" : 1605517110114,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "3ec4ebbfddc102d2",
+        "name" : "请求地址",
+        "source" : "3ec4ebbfddc102d2.txt",
+        "type" : "text/plain",
+        "size" : 46
+      }, {
+        "uid" : "342502e9e8580332",
+        "name" : "请求方法",
+        "source" : "342502e9e8580332.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "5c0b31215b7de773",
+        "name" : "请求头",
+        "source" : "5c0b31215b7de773.txt",
+        "type" : "text/plain",
+        "size" : 2
+      }, {
+        "uid" : "43a937a29afb4a91",
+        "name" : "请求正文",
+        "source" : "43a937a29afb4a91.txt",
+        "type" : "text/plain",
+        "size" : 2
+      }, {
+        "uid" : "366f39c60de0c7ae",
+        "name" : "响应头",
+        "source" : "366f39c60de0c7ae.txt",
+        "type" : "text/plain",
+        "size" : 178
+      }, {
+        "uid" : "f7eb2498f935346b",
+        "name" : "响应状态码",
+        "source" : "f7eb2498f935346b.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "575711fcb429697a",
+        "name" : "响应正文",
+        "source" : "575711fcb429697a.txt",
+        "type" : "text/plain",
+        "size" : 1017
+      }, {
+        "uid" : "344f7fa5c67057ae",
+        "name" : "response cookies",
+        "source" : "344f7fa5c67057ae.txt",
+        "type" : "text/plain",
+        "size" : 21
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 8,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "模块：demo模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "54170-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90b590c0abaeeea3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,11 @@
+[ {
+  "uid" : "ab9d45ae8dcb873f",
+  "name" : "用例名称：demo测试",
+  "time" : {
+    "start" : 1605517116191,
+    "stop" : 1605517116246,
+    "duration" : 55
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

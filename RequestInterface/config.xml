@@ -1,0 +1,63 @@
+<Config>
+    <global>
+    </global>
+
+    <cases>
+        <login-test_login01 run="0" />
+        <login-test_login02 run="0" />
+        <search-test_search01 run="0" />
+        <order-test_order01 run="0" />
+        <order-test_order01 run="0" />
+        <demo-test_demo01 run="1" />
+    </cases>
+
+    <mould>
+        <login>
+            <host>http://140.143.171.176:9000</host>
+            <url>/account/api/login/</url>
+            <method>post</method>
+            <body_type>form</body_type>
+            <header>
+                <Content-Type>application/x-www-form-urlencoded</Content-Type>
+                <Cookie>sessionid=270odmrrzzplem5aczgoxl5c1xvvxjbe</Cookie>
+            </header>
+            <params></params>
+            <data>
+                <username>test3</username>
+                <password>123456</password>
+            </data>
+        </login>
+
+        <search>
+            <host>http://140.143.171.176:9000</host>
+            <url>/ticket/api/search/</url>
+            <method>get</method>
+            <body_type></body_type>
+            <param>
+                <page>1</page>
+                <limit>10</limit>
+            </param>
+            <header>
+<!--                <Content-Type>application/x-www-form-urlencoded</Content-Type>-->
+                <Cookie>sessionid=ws80m521m0bnk7ndaivatkl67b3t0erk; suid=5; sukey=64552911e6d300d26b00639e5cdbbf64</Cookie>
+            </header>
+        </search>
+
+        <order>
+            <host>http://140.143.171.176:9000</host>
+            <url>/ticket/api/order/</url>
+            <method>post</method>
+            <body_type>form</body_type>
+        </order>
+
+        <demo>
+            <host>http://140.143.171.176:9000</host>
+            <url>/ticket/api/search/</url>
+            <method>get</method>
+            <body_type></body_type>
+            <param></param>
+            <header></header>
+        </demo>
+    </mould>
+
+</Config>
