@@ -67,7 +67,7 @@ def get_api(name):
 
 # 获取xml文件中的全局配置
 def get_global_info():
-    et = ET.ElementTree(file='./Config.xml')
+    et = ET.ElementTree(file='.//Config.xml')
     global_info = {}
 
     for i in et.findall('.//global/*'):
