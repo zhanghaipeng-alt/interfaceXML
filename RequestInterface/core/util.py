@@ -114,8 +114,8 @@ def get_dic_excel(filename):
 
 
 
-if __name__ == '__main__':
-    # a = get_data_excel('全局变量')
-    c = get_dic_excel('测试用例')
-    print(c)
+# if __name__ == '__main__':
+#     # a = get_data_excel('全局变量')
+#     c = get_dic_excel('测试用例')
+#     print(c)
 
